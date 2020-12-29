@@ -1,4 +1,4 @@
-package com.springboot.advanced.service;
+package com.springboot.advanced.springbootadvanced.service;
 
 import org.springframework.stereotype.Component;
 
