@@ -1,6 +1,7 @@
 package com.springboot.advanced.springbootadvanced.controller;
 
 import com.springboot.advanced.springbootadvanced.model.Question;
+import com.springboot.advanced.springbootadvanced.model.Survey;
 import com.springboot.advanced.springbootadvanced.service.SurveyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -35,5 +36,10 @@ public class SurveyController {
     @GetMapping("/surveys/{surveyId}/questions/{questionId}")
     public Question retrieveDetailsForQuestion(@PathVariable String surveyId, @PathVariable String questionId){
         return surveyService.retrieveQuestion(surveyId, questionId);
+    }
+
+    @GetMapping("/surveys/")
+    public List<Survey> retrieveAllSurveys(){
+        return surveyService.retrieveAllSurveys();
     }
 }
