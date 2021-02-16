@@ -1,5 +1,6 @@
 package com.springboot.advanced.springbootadvanced.controller;
 
+import com.springboot.advanced.springbootadvanced.configuration.BasicConfiguration;
 import com.springboot.advanced.springbootadvanced.service.WelcomeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

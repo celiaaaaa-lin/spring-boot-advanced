@@ -1,4 +1,4 @@
-package com.springboot.advanced.springbootadvanced.controller;
+package com.springboot.advanced.springbootadvanced.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
