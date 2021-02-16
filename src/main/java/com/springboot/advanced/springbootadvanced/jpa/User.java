@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-//mapped to a tabla
+//mapped to a table
 @Entity
 public class User {
 
